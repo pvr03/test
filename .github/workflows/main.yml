@@ -33,7 +33,7 @@ jobs:
       - name: Slack Notification
         uses: voxmedia/github-action-slack-notify-build@v1.1.2
         with:
-          channel: alerts
+          channel: general
           status: STARTED
           color: good
         env:
