@@ -28,7 +28,6 @@ jobs:
    # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-         curl -X POST -H 'Content-type: application/json' --data '{"text":"JOB START"}' https://hooks.slack.com/services/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
          sudo rm -rf /tmp/test/*
          sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
       - name: Notify Slack
