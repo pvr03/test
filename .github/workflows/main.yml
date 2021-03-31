@@ -36,4 +36,4 @@ jobs:
           channel: '#alerts'
         if: always()
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
+          SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
