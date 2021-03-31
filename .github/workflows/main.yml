@@ -31,7 +31,7 @@ jobs:
          sudo rm -rf /tmp/test/*
          sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
       - name: Notify Slack
-        uses: drilonrecica/action-slack-notify@0.0.6
+        uses: voxmedia/github-action-slack-notify-build@v1
         env:
           SLACK_CHANNEL: general
           SLACK_COLOR: '#3278BD'
