@@ -33,8 +33,8 @@ jobs:
       - name: Slack Notification
         uses: voxmedia/github-action-slack-notify-build@v1.1.2
         env:
-          channel_id : alerts
-          SLACK_ICON: https://github.com/rtCamp.png?size=48
+          SLACK_CHANNEL: alerts
+          #SLACK_ICON: https://github.com/rtCamp.png?size=48
           SLACK_MESSAGE: 'Post Content :rocket:'
           SLACK_TITLE: Post Title
           SLACK_WEBHOOK: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
