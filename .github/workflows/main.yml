@@ -37,10 +37,10 @@ jobs:
           status: STARTED
           color: good
         env:
-          SLACK_CHANNEL: alerts
-          SLACK_ICON: https://github.com/rtCamp.png?size=48
-          SLACK_MESSAGE: 'Post Content :rocket:'
-          SLACK_TITLE: Post Title
+          #SLACK_CHANNEL: alerts
+          #SLACK_ICON: https://github.com/rtCamp.png?size=48
+          #SLACK_MESSAGE: 'Post Content :rocket:'
+          #SLACK_TITLE: Post Title
           SLACK_WEBHOOK: https://hooks.slack.com/services/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
           #SLACK_CHANNEL: general
           #channel: alerts
