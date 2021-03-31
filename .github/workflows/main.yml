@@ -31,14 +31,4 @@ jobs:
          curl -X POST -H 'Content-type: application/json' --data '{"text":"JOB START"}' https://hooks.slack.com/services/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
          sudo rm -rf /tmp/test/*
          sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
-  slackNotification:
-    name: Notify Slack
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Notify Slack
-      uses: drilonrecica/action-slack-notify@0.0.3
-      env:
-        SLACK_WEBHOOK: https://hooks.slack.com/services/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
-        SLACK_CHANNEL: alerts
-
+      
