@@ -39,6 +39,6 @@ jobs:
           SLACK_TITLE: Post Title
           SLACK_WEBHOOK: ${{ secrets.SLACK_NOTIFICATIONS_BOT_TOKEN }}
           SLACK_CHANNEL: general
-        
+          channel: alerts
    
 
