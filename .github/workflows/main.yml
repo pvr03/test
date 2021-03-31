@@ -33,7 +33,7 @@ jobs:
       - name: Notify Slack
         uses: voxmedia/github-action-slack-notify-build@v1
         env:
-          SLACK_CHANNEL: '#alerts'
+          channel: '#alerts'
           SLACK_COLOR: '#3278BD'
           SLACK_ICON: https://upload.wikimedia.org/wikipedia/commons/6/68/NoxttonBot.png?size=48
           SLACK_MESSAGE: 'Post Content :rocket:'
