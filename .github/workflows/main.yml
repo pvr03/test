@@ -29,4 +29,5 @@ jobs:
       - name: Run a multi-line script
         run: |
          sudo rm -rf /tmp/test/*
-         #sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
+         sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
+   
