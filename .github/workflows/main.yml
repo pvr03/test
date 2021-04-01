@@ -30,7 +30,7 @@ jobs:
         run: |
          sudo rm -rf /tmp/test/*
          #sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
-      - uses: actions/checkout@v2
+      #- uses: actions/checkout@v2
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
