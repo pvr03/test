@@ -30,11 +30,3 @@ jobs:
         run: |
          sudo rm -rf /tmp/test/*
          #sudo mv /home/ubuntu/actions-runner/_work/test/test/* /tmp/test
-      - name: Report Status
-        if: always()
-        uses: ravsamhq/notify-slack-action@master
-        with:
-          status: ${{ job.status }}
-          notify_when: 'failure'
-        env: 
-          SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
